@@ -1,0 +1,76 @@
+body {
+    background-color: #98e0ffe0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.task-manager {
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#taskInput {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c31a1a;
+    border-radius: 50px;
+}
+
+button {
+    padding: 10px 10px;
+	background-color: #c583e1;
+    color: #000000;
+    border: none;
+    border-radius: 50px;
+    margin-top: 5px;
+	font-weight: bold;
+	
+}
+
+button.edit-btn {
+    background-color: #007bff; 
+}
+
+button.complete-btn {
+    background-color: #28a745;
+}
+
+button.delete-btn {
+    background-color: #dc3545;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+
+}
+
+.task-item {
+    padding: 10px;
+    border-bottom: 1px solid #c4da1e;
+}
+
+.task-item.completed .task-content 
+{
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task-content 
+{
+    margin-bottom: 10px;
+
+}
+
+
